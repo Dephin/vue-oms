@@ -1,0 +1,40 @@
+.table-list {
+    min-height: 50px;
+
+    border: 1px solid @tms-border-two-level;
+    position: relative;
+    .el-table--mini {
+        th {
+            padding: 10px 0;
+
+            font-weight: 400;
+
+            color: @tms-font-main;
+
+            .font-size(14px);
+        }
+        td {
+            .font-size(13px);
+        }
+    }
+    .el-table__header {
+        th {
+            background: @tms-light-gray;
+        }
+    }
+}
+
+.page-list {
+    margin: 20px 0 0 0;
+}
+
+.tabal-height-50{
+  height: 50px;
+}
+
+.tabal-height-500{
+  height: 500px;
+  /deep/ .el-table__body-wrapper{
+    height: 456px;
+  }
+}
